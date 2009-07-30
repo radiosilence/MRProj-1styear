@@ -1,8 +1,8 @@
-  /**********************************************************************
-  *    Filename:     main.c       ROBOT TEST SOFTWARE              
-  *      This is set to run at 8MHz - use the PLL to run faster....
-  *            timings will have to be adjusted though                    *
- ***********************************************************************/
+ /**********************************************************************
+ *    Filename:     main.c       ROBOT TEST SOFTWARE                   *
+ *      This is set to run at 8MHz - use the PLL to run faster....     *
+ *            timings will have to be adjusted though                  *
+ **********************************************************************/
  
 
 #include "p24HJ64GP506.h"
@@ -135,20 +135,17 @@ void SetupPORTS(void)
        
   81.
       */
-      	LATB = 0x0800;
-        TRISB = 0x3233;
-        LATC = 0x0000;
-        TRISC = 0x9007;
-        LATD = 0x0000;
-        TRISD = 0x0000;
-        LATF = 0x0000;
-        TRISF = 0x0015;
-        LATG = 0x0000;
-        TRISG = 0x0000;
-      }
-  
-
-
+	LATB = 0x0800;
+	TRISB = 0x3233;
+	LATC = 0x0000;
+	TRISC = 0x9007;
+	LATD = 0x0000;
+	TRISD = 0x0000;
+	LATF = 0x0000;
+	TRISF = 0x0015;
+	LATG = 0x0000;
+	TRISG = 0x0000;
+}
 
 int getad(int chan)
 {
