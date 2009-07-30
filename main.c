@@ -33,7 +33,7 @@ volatile unsigned int ECHO;
 volatile unsigned int LEFTDIST;
 volatile unsigned int RIGHTDIST;
 
-// Vars for distance travel
+// Variables for distance travel
 volatile int leftclicksmoved=0;
 volatile int rightclicksmoved=0;
 unsigned int distance = 100;
